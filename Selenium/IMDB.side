@@ -1,0 +1,96 @@
+{
+  "id": "081f5d61-d2d4-4187-82c4-6aaf0d2a16b1",
+  "version": "2.0",
+  "name": "IMDB",
+  "url": "https://www.imdb.com/",
+  "tests": [{
+    "id": "b442403b-5f3e-4537-9bdd-a2227412cdda",
+    "name": "Game of Thrones",
+    "commands": [{
+      "id": "29bfeca8-cee5-44ae-a057-e0c46851cb66",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.imdb.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "582c13d9-9ab8-45b0-85cd-329f0352665c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43684ee0-2d76-48f9-9508-4ced697845fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=#navWatchlistMenu > .downArrow",
+      "targets": [
+        ["css=#navWatchlistMenu > .downArrow", "css:finder"],
+        ["xpath=//li[@id='navWatchlistMenu']/span", "xpath:idRelative"],
+        ["xpath=//li[8]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fbcf40c-714e-48a0-ace5-937abd645ac0",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(2) img",
+      "targets": [
+        ["css=li:nth-child(2) img", "css:finder"],
+        ["xpath=(//img[@alt='Add items to your Watchlist'])[2]", "xpath:img"],
+        ["xpath=//ul[@id='navWatchlist']/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af53da09-dd81-472e-a9ea-059e8d58c836",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Game of Thrones",
+      "targets": [
+        ["linkText=Game of Thrones", "linkText"],
+        ["css=.lister-item:nth-child(1) .lister-item-header > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Game of Thrones')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[3]/div/div/div[3]/h3/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/title/tt0944947/?ref_=adv_li_tt')]", "xpath:href"],
+        ["xpath=//h3/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Game of Thrones')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec0300db-1642-48aa-9421-0409bc0902ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slate_button",
+      "targets": [
+        ["css=.slate_button", "css:finder"],
+        ["xpath=//div[@id='title-overview-widget']/div/div[4]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/video/imdb/vi3672620057?playlistId=tt0944947&ref_=tt_ov_vi')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4476e600-5ace-4f05-b0ef-454c01aef943",
+      "comment": "",
+      "command": "click",
+      "target": "css=.jw-icon-playback",
+      "targets": [
+        ["css=.jw-icon-playback", "css:finder"],
+        ["xpath=//div[@id='imdb-jw-video-1']/div[9]/div[4]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[9]/div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3748d65b-1286-4e0f-b45d-fe9d97723ce5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b442403b-5f3e-4537-9bdd-a2227412cdda"]
+  }],
+  "urls": ["https://www.imdb.com/"],
+  "plugins": []
+}

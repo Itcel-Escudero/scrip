@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN'>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>testspec Capacitación - Login testing</title>
+<link type="text/css" rel="stylesheet" href="http://devtools.certum.com/testlink/gui/themes/intellego/css/tl_documents.css" />
+<style type="text/css" media="print">.notprintable { display:none;}</style>
+</head>
+<body>
+<div>
+<div style="float:right;">TestLink Community [configure $tlCfg-&gt;document_generator-&gt;company_name]</div>
+<div>&nbsp;</div><hr />
+<p style="text-align: center;"><img alt="TestLink logo" title="configure using $tlCfg->document_generator->company_logo" height="53" src="http://devtools.certum.com/testlink/gui/themes/intellego/images/tl-logo-transparent-25.png" /></div>
+<div class="doc_title"><p>Especificación de Pruebas</p></div>
+<div class="doc_title" style="text-align:left;margin: auto;"><p>Proyecto de Pruebas: Capacitación<br>Suite de Pruebas: Capacitación - Login testing</p></div>
+<div class="summary"><p id="printedby">Imprimido por TestLink el 07/06/2019</p></div>
+<div class="pagefooter" id="copyright">2012 &copy; TestLink Community</div>
+<h1 class="general" style="page-break-before: always">Tabla de Contenidos</h1><div class="toc"><b><p style="padding-left: 20px;"><a href="#toc_1">1.Login testing</a></p></b>
+<p style="padding-left: 45px;"><a href="#toc_tc178152">CAP-50: Inicio secion en TestLink</a></p></div><h1 class="doclevel" >Descripción</h1>
+<div class="txtlevel"><p>
+	Proyecto destinado a capacitaciones.</p></div>
+ <br/><a name='toc_'></a>
+<h1 class='doclevel'>1.Suite de Pruebas : Login testing</h1>
+<div><p>
+	Acceder a la pagina ingresando usuario y contrase&ntilde;a asignada.</p>
+</div><a name="toc_tc178152"></a><p>&nbsp;</p><div> <table class="tc" width="90%" ><tr><th colspan="4">Caso de Prueba CAP-50: Inicio secion en TestLink&nbsp;<span style="font-size: 80%;">[Versión  : 1]</span></th></tr>
+<tr><td width="20%" valign="top"><span class="label">Autor:</span></td><td colspan="3">iescudero</td></tr>
+<tr><td colspan="4"><span class="label">Resumen:</span><br /><p>
+	En este caso de prueba se indica la forma correcta de acceder al sistema de TestLink.</p>
+</td></tr><tr><td colspan="4"><span class="label">Precondiciones:</span><br /><p>
+	Se debe tener:</p>
+<p>
+	URL:&nbsp;http://devtools.certum.com/testlink/index.php?</p>
+<p>
+	Navegador</p>
+<p>
+	Estar dado de alta por el admin.</p>
+<p>
+	Permisos de perfil.</p>
+<p>
+	Usuario activo</p>
+<p>
+	Clave correcta</p>
+</td></tr><tr><td><span class="label">Nº:</span></td><td><span class="label">Pasos:</span></td><td><span class="label">Resultados Esperados:</span></td></tr><tr><td width="5">1</td><td><p>
+	Ingresar la URL&nbsp;http://devtools.certum.com/testlink/index.php? en el navegador.</p>
+</td><td><p>
+	Mostrar la pantalla de inicio de sesion donde se presenta&nbsp; centrado el formulario con los campos de</p>
+<ul>
+	<li>
+		Usuario</li>
+	<li>
+		Contrase&ntilde;a</li>
+</ul>
+<p>
+	y el boton de &quot;Inicio de sesion&quot;.</p>
+</td></tr><tr><td width="5">2</td><td><p>
+	Ingresar el nombre del usuario.</p>
+</td><td><p>
+	Aparece el nombre del usuario capturado.</p>
+</td></tr><tr><td width="5">3</td><td><p>
+	Ingresar la contrase&ntilde;a.</p>
+</td><td><p>
+	Aparecera la contrase&ntilde;a en putos negros.</p>
+</td></tr><tr><td width="5">4</td><td><p>
+	Hacer clic en el boton &quot;Iniciar sesion&quot;.</p>
+</td><td><p>
+	Muestra la pantalla principal del sistema, la cual contendra las siguientes caracteristicas:</p>
+<ul>
+	<li>
+		Nobre de usuario.</li>
+	<li>
+		Rol de usuario.</li>
+</ul>
+<p>
+	Estos presentes en la parte superior izquierdo y debera considir con los datos que se ingresaron.</p>
+</td></tr><tr><td width="20%" valign="top"><span class="label">Tipo de ejecución:</span></td><td colspan="3">Manual</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Duración estimada de la ejec. (min):</span></td><td colspan="3">3.00</td></tr>
+<tr><td width="20%" valign="top"><span class="label">Importancia:</span></td><td colspan="3">Alta</td></tr>
+<tr><td colspan="4"></td></tr><tr><td > práctica:</td><td  colspan = "3" ></td></tr>
+<tr><td > ejercicio de practica:</td><td  colspan = "3" ></td></tr>
+<tr><td > prueba1:</td><td  colspan = "3" ></td></tr>
+<tr><td > Etiqueta2:</td><td  colspan = "3" ></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Requisitos</span><td colspan="3">&nbsp;Ninguno<br /></td></tr>
+<tr><td width="20%" valign="top"><span class="label">Keywords:</span><td colspan="3">&nbsp;Ninguno<br></td></tr>
+</table>
+</div>
+
+</body>
+</html>

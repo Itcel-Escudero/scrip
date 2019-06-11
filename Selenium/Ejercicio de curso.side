@@ -1,0 +1,104 @@
+{
+  "id": "45e12053-9ebd-44cc-b6c6-59ffc9f7f886",
+  "version": "2.0",
+  "name": "Ejercicio de curso",
+  "url": "http://200.77.226.6/InbrokerV5Web/Home/index.aspx",
+  "tests": [{
+    "id": "49bfa229-616d-4b3f-8448-5198042c2e49",
+    "name": "Login",
+    "commands": [{
+      "id": "a3e3541c-d667-46de-b002-0335e1fc0297",
+      "comment": "",
+      "command": "open",
+      "target": "http://200.77.226.6/InbrokerV5Web/Home/index.aspx",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36bd987c-1d7c-442d-9fcc-d460ca482cb1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ef23eb2-48f8-4d34-a147-65b6f37dada4",
+      "comment": "",
+      "command": "click",
+      "target": "id=DefaultHeader_tfUser",
+      "targets": [
+        ["id=DefaultHeader_tfUser", "id"],
+        ["name=DefaultHeader_tfUser", "name"],
+        ["css=#DefaultHeader_tfUser", "css:finder"],
+        ["xpath=//input[@id='DefaultHeader_tfUser']", "xpath:attributes"],
+        ["xpath=//div[@id='ext-gen40']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38fee0b3-dcf2-477c-9baa-b5e63d7ea941",
+      "comment": "",
+      "command": "type",
+      "target": "id=DefaultHeader_tfUser",
+      "targets": [
+        ["id=DefaultHeader_tfUser", "id"],
+        ["name=DefaultHeader_tfUser", "name"],
+        ["css=#DefaultHeader_tfUser", "css:finder"],
+        ["xpath=//input[@id='DefaultHeader_tfUser']", "xpath:attributes"],
+        ["xpath=//div[@id='ext-gen40']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "WEBTEST"
+    }, {
+      "id": "6061fcd8-c783-497b-86ef-d483e1f29dd9",
+      "comment": "",
+      "command": "click",
+      "target": "id=DefaultHeader_tfPass",
+      "targets": [
+        ["id=DefaultHeader_tfPass", "id"],
+        ["name=DefaultHeader_tfPass", "name"],
+        ["css=#DefaultHeader_tfPass", "css:finder"],
+        ["xpath=//input[@id='DefaultHeader_tfPass']", "xpath:attributes"],
+        ["xpath=//div[@id='ext-gen47']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b013910-51ab-4bb5-89cf-bb98aaf8f224",
+      "comment": "",
+      "command": "type",
+      "target": "id=DefaultHeader_tfPass",
+      "targets": [
+        ["id=DefaultHeader_tfPass", "id"],
+        ["name=DefaultHeader_tfPass", "name"],
+        ["css=#DefaultHeader_tfPass", "css:finder"],
+        ["xpath=//input[@id='DefaultHeader_tfPass']", "xpath:attributes"],
+        ["xpath=//div[@id='ext-gen47']/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "aB12345678"
+    }, {
+      "id": "5b6d3b6b-70b3-456b-926b-81f48b0d38bc",
+      "comment": "",
+      "command": "click",
+      "target": "id=DefaultHeader_imgBtnLogin",
+      "targets": [
+        ["id=DefaultHeader_imgBtnLogin", "id"],
+        ["css=#DefaultHeader_imgBtnLogin", "css:finder"],
+        ["xpath=//img[@id='DefaultHeader_imgBtnLogin']", "xpath:attributes"],
+        ["xpath=//div[@id='DefaultHeader_imgBtnLogin_Container']/img", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cf339b90-21c4-4758-b3ba-24d979177a7d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["49bfa229-616d-4b3f-8448-5198042c2e49"]
+  }],
+  "urls": ["http://200.77.226.6/InbrokerV5Web/Home/index.aspx"],
+  "plugins": []
+}
